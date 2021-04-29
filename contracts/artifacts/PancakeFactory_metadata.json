@@ -1,0 +1,314 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_feeToSetter",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "token0",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "token1",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "pair",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "PairCreated",
+				"type": "event"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "INIT_CODE_PAIR_HASH",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "allPairs",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "allPairsLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					}
+				],
+				"name": "createPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pair",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "feeTo",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "feeToSetter",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "getPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_feeTo",
+						"type": "address"
+					}
+				],
+				"name": "setFeeTo",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_feeToSetter",
+						"type": "address"
+					}
+				],
+				"name": "setFeeToSetter",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-core/contracts/PancakeFactory.sol": "PancakeFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-core/contracts/PancakeERC20.sol": {
+			"keccak256": "0x06f0fa031de0f34cef2bdb7f78df2eb3ff2490e717d0f9eba4ab4f8b3dbed0f0",
+			"urls": [
+				"bzz-raw://7af9fa23496ffd23cb95f59b3b2598be0f0f49fce756ea15445e1b42afcd1086",
+				"dweb:/ipfs/QmdeA7SBg76tj1GNJYCbGpqnTMKm4WmBPkYTAZkUi7QJha"
+			]
+		},
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-core/contracts/PancakeFactory.sol": {
+			"keccak256": "0x968070af1369440f4a13deca2e335fee4d9d880043104f1d6fa6e3f4761ba7a5",
+			"urls": [
+				"bzz-raw://dc953990aef2aec26e2fec48996c1bf39f90b33e8dce6cb184b8e03e1d10805a",
+				"dweb:/ipfs/QmfJ7Y8vjVVSx2BE8eQdvFLrXz7Fg1hoAbibqABv3wNc8L"
+			]
+		},
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-core/contracts/PancakePair.sol": {
+			"keccak256": "0xf956a29201fa63d4e06a45b5d9469764a074a52a11007a855c07179853416860",
+			"urls": [
+				"bzz-raw://c30fb87afde77631b490a0605df42e9dad6288601c1ecd78264a4e988425b86a",
+				"dweb:/ipfs/QmRkhs519a7L6VTjZYyNvkQi6gP43x6zT68XYDKCKnMq7V"
+			]
+		},
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-core/contracts/interfaces/IERC20.sol": {
+			"keccak256": "0x61db17aebc5d812c7002d15c1da954065e56abe49d64b14c034abe5604d70eb3",
+			"urls": [
+				"bzz-raw://b006685e753f9120469f10b09c159f222d4cb8b507a6c1f0c14ed50c883ebe66",
+				"dweb:/ipfs/QmSyY7iTugbczPwfGK67etiyPULenYGzzRYbt8aabwwkUb"
+			]
+		},
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-core/contracts/interfaces/IPancakeCallee.sol": {
+			"keccak256": "0xf4099e1dc40e09405ab439ba78dbd1ee3bd6eaf8042bdf26d7fd66b282c33afc",
+			"urls": [
+				"bzz-raw://d0a8f145a0cf1681a4b18d9615f4c3339ef61220e0084f3e53648dce7a9ac3dc",
+				"dweb:/ipfs/QmaBioBxCipyUgqLJxhxx5dseN36Zwt1jCuRjN7jiaiBHz"
+			]
+		},
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-core/contracts/interfaces/IPancakeERC20.sol": {
+			"keccak256": "0xefff6fc91389064727047e9f6891b04cb91f24bd2b13815ba3c6ce8735a386f1",
+			"urls": [
+				"bzz-raw://af1d983c23af3b46feaa6399ab4bf5fcf7dd1956370091230e4f55486c7efdfe",
+				"dweb:/ipfs/QmUTCqSEiXrjHu7DhR566ow8eDMn5e6UuGMxofQ3bPJ22o"
+			]
+		},
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-core/contracts/interfaces/IPancakeFactory.sol": {
+			"keccak256": "0x5aa3cb565f2793e4ae2b90e716aa5f5d38bf68f6f09caa62fe2395db27171faf",
+			"urls": [
+				"bzz-raw://9c8725ceb4ad2aca054ea558b23ba851cc573fcf1a0f2bc7257079004528f525",
+				"dweb:/ipfs/QmbHxnQ5bJ4o5tHoeFkXswayD5Y2tEwKAuh99RVbvjf67X"
+			]
+		},
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-core/contracts/interfaces/IPancakePair.sol": {
+			"keccak256": "0xc432aeec5c038f15c3670ee6128ce41dbfa1f7a9979dc37b967213436ae77b33",
+			"urls": [
+				"bzz-raw://3bb06c5526b4691a4128f4f8f6a2ecca9af5f149848a2ec4cb60bd775d94568b",
+				"dweb:/ipfs/QmRYv5qt1TzSEPYhSXvfejncnGwZV5o6twDrTmtVg2Rx74"
+			]
+		},
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-core/contracts/libraries/Math.sol": {
+			"keccak256": "0x05927cb4aa14897bd567607522c18d2d518fa803ade6f870fac244c6f3702a3b",
+			"urls": [
+				"bzz-raw://b2805464c2d75cbdd726d6bd5c9b8d1f2c8566b606ec769ffa9a194a42248862",
+				"dweb:/ipfs/QmWBa9BsCH8gbncvDFXmfMJX1USTHvAREtc8C7nz6miQpw"
+			]
+		},
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-core/contracts/libraries/SafeMath.sol": {
+			"keccak256": "0x9c8465de751317860b623cd77f7f53f41a84b6624c0580ee526dcf7a2b7cb80c",
+			"urls": [
+				"bzz-raw://9b371b3eb0649b486f76cd628cc060354d1ac11fa8baed1170567271655f05d7",
+				"dweb:/ipfs/QmTUg31wK9UyX6o1Q1mxE4DQhuc1rWGBanNTu1uagNVQB6"
+			]
+		},
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-core/contracts/libraries/UQ112x112.sol": {
+			"keccak256": "0x2240694530251ab376ae468d0a2d3ee8b3109e56f2acadbc203cdf341506dd31",
+			"urls": [
+				"bzz-raw://56f55c411faa2924df0915ff77129b9d8c64d3e4d28554e7234f3774ac95958a",
+				"dweb:/ipfs/QmYrzUurXL8ijzS8EnLtQTVD7fKPReosg2DsEPXXCY7ec3"
+			]
+		}
+	},
+	"version": 1
+}
